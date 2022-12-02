@@ -23,7 +23,6 @@ requirements:
     - matplotlib-base
     - numpy
     - scipy
-    - biorbd
     - pyqtgraph
     - pyqt
     - pyopengl
