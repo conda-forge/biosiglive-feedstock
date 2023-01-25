@@ -6,8 +6,8 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://github.com/pyomeca/biosiglive/archive/v{{ version }}.tar.gz
-  sha256: f2d2e977ef8e6e16b0da3e0f6b74c92d62ed68cd09a4131b21f82962017501a4
+  url: https://files.pythonhosted.org/packages/10/bf/64d32e64ec7cb1f69d56cb494168199dd7872a341adce391d296d5e7f246/biosiglive-{{version}}.tar.gz
+  sha256: 510baeb5d8c17b0356a810498ca3974c47e79c87e5594275043ffaeb56c8fd6e
 
 build:
   number: 0
