@@ -1,13 +1,13 @@
 {% set name = "biosiglive" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.2" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://files.pythonhosted.org/packages/10/bf/64d32e64ec7cb1f69d56cb494168199dd7872a341adce391d296d5e7f246/biosiglive-{{version}}.tar.gz
-  sha256: 510baeb5d8c17b0356a810498ca3974c47e79c87e5594275043ffaeb56c8fd6e
+  url: https://files.pythonhosted.org/packages/57/d9/682a8c5fd267b61d2e0f0499c21d161344c18f778efe083d2a91c8654e11/biosiglive-{{version}}.tar.gz
+  sha256: 74480d7acb7ba2133bf955f3ed84f9782f26831f8533e706b5a4ddf7906c2517
 
 build:
   number: 0
@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - pip
+    - hatchling
     - python >=3.9
   run:
     - python >=3.9
