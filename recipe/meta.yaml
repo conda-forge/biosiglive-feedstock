@@ -21,7 +21,6 @@ requirements:
   run:
     - python >=3.9
     - matplotlib-base
-    - hatchling
     - numpy
     - scipy
     - pyqtgraph
