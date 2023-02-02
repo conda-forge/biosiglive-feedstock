@@ -1,5 +1,5 @@
 {% set name = "biosiglive" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=3.9
     - matplotlib-base
+    - hatchling
     - numpy
     - scipy
     - pyqtgraph
